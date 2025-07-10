@@ -1,0 +1,35 @@
+ .box{
+          width: 250px;
+            height: 300px;
+       background: #22C1C3;
+background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            -webkit-background-clip : border-box;
+            padding: 29px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 18px;
+    }
+     .Form{
+         display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+        fieldset{
+                      width: 220px;
+                      height: 250px;
+                      padding: 1opx;
+                      background: #22C1C3;
+                 background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(116, 191, 139, 1) 44%, rgba(253, 187, 45, 1) 100%);
+                      gap: 9px ;
+                      border-radius: 21px;
+                  }
+                  h1{
+                   background: -webkit-linear-gradient(#5ab16d, #e7db36);
+                 -webkit-background-clip: text;
+                 -webkit-text-fill-color: transparent;
+                  }
+                  h2{
+                 background: -webkit-linear-gradient(#00fa36, #ffee00);
+                 -webkit-background-clip: text;
+                 -webkit-text-fill-color: transparent;
+                  }
