@@ -1,0 +1,122 @@
+     .Container{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                width: 100vw;
+                /* margin: 0; */
+                height: 59px;
+                background: #833AB4;
+                background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+                position: sticky;
+                top: 0;
+                overflow: hidden;
+                flex-direction: row;
+              }
+              img{
+                    width: 50px;
+                    height: 50px;
+                }
+                .container>ul{
+                justify-content: space-evenly;
+                gap: 40px;
+                list-style-type: none;
+                display: flex;   
+                align-items: center;
+                }
+                button{
+                 border-radius: 10px;
+                 width: 100px;
+                 padding: 10px;
+                 border: none;
+                 color: rgb(255, 255, 255);
+                 background-color: rgb(0, 255, 0);
+                 align-items: center;   
+                 cursor: pointer;
+                }
+                .boton-color{
+                  color: rgb(233, 135, 6);
+                }
+
+                a{
+                  text-decoration: none;
+                }
+                .carousel-img>img{
+                  width: 500px;
+                  height: 400px;
+                  object-fit: contain;
+                  margin: 2px;
+                  }
+                .carousel{
+                  display: flex; 
+                  /* justify-content: left;
+                  align-items: left; */
+                  height: 400px;
+                }
+
+                h1{
+                  font-size: 50px;
+                  background-image: url(https://i.pinimg.com/236x/0f/21/cf/0f21cfd9cfda843baaba7d7ba601c014.jpg);
+                  -webkit-backface-clib: text;
+                  background-clip: text;
+                  color: transparent;
+                  margin: 2px;
+                  }
+                
+                .Carousel-img>img{
+                  width: 300px;
+                  height: 300px;
+                  object-fit: contain;
+                 
+                }
+                .Carousel{
+                  display: flex;
+                  justify-content: left;
+                  align-items: left;
+                  height: 400px;   
+   
+                } 
+                .Align{
+                  display: block;
+                  align-items: center;
+
+                }
+                h1{
+                  font-size: 7
+                  px;
+                  background-image: url(https://i.pinimg.com/736x/5e/42/a3/5e42a33adfae388743fed8d34c37fee2.jpg);
+                  -webkit-backface-clib: text;
+                  background-clip: text;
+                  color: transparent;
+                  }
+                   .Nav-bar{
+                    background-color: transparent;
+                       background-image: url();
+                  -webkit-backface-clib: text;
+                  background-clip: text;
+                  color: transparent;
+                  width: 100vw;
+                  }
+                  .border{
+                   width: 199px;
+                   height: 399px;
+                   border-radius: 9px;
+                  }
+                  .bor{
+                    width: 651px;
+                    height: 399px;
+                    border-radius: 9px;
+                  }
+                  .contact{
+                    align-items: right;
+                    justify-content: center;
+                    color: rgb(236, 86, 86);
+                  }
+                  .table{
+                    align-items: center;
+                    width: 599px;
+                    justify-content: center;
+                  }
+                  .All-in{
+                   align-items: center;
+                   justify-content: center;
+                  }
